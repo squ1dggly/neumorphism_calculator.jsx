@@ -1,0 +1,25 @@
+.screen-wrapper {
+	background: linear-gradient(284.34deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%), #e3ecf6;
+	color: rgba(68, 70, 66, 0.8);
+	font-size: 4rem;
+	text-align: end;
+	display: flex;
+	padding: 0.4rem;
+	margin-bottom: 2rem;
+	border-radius: 1.875rem;
+}
+
+.screen-outer {
+	background: linear-gradient(103.33deg, #ffffff 0%, #feffff 0.01%, #99a2a4 100%);
+	padding: 0.0625rem;
+	width: 100%;
+	border-radius: 1.375rem;
+}
+
+.screen-inner {
+	background: linear-gradient(108.47deg, #ccd4c6 -0.62%, #c9d3c1 25.06%, #c0cdb5 51.78%, #b3c1a7 78.51%, #afbda2 100%);
+	padding: 1.0625rem 1.875rem 0.4375rem;
+	width: 100%;
+	border-radius: 1.25rem;
+	overflow: hidden;
+}

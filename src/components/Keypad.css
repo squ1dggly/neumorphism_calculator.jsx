@@ -1,0 +1,60 @@
+.keypad {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 0.5rem;
+}
+
+.button {
+	background: linear-gradient(145deg, #f6ffff, #cfd7dc);
+	color: #242424;
+	font-size: 1.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 3.5rem;
+	padding: 10px;
+	border: none;
+	border-radius: 20px;
+	box-shadow: 2px 2px 10px #adb3b7, -2px -2px 10px #ffffff, inset 2px 2px 0px #ffffff, inset -2px -2px 0px #adb3b7;
+	cursor: pointer;
+}
+
+.button:hover {
+	background: linear-gradient(145deg, #cfd7dc, #f6ffff);
+}
+
+.button:active {
+	border: 1px solid #cfd7dc;
+}
+
+.opt {
+	background: linear-gradient(145deg, #ffc362, #de8605);
+	box-shadow: 2px 2px 15px #adb3b7, -2px -2px 15px #ffffff, inset 2px 2px 0px #ffc362, inset -2px -2px 0px #de8605;
+}
+
+.opt:hover {
+	background: linear-gradient(145deg, #de8605, #ffc362);
+}
+
+.opt:active {
+	border: 1px solid #de8605;
+}
+
+.opt-active {
+	background: linear-gradient(145deg, #de8605, #ffc362);
+	border: 1px solid #de8605;
+}
+
+.equals {
+	background: linear-gradient(145deg, #60e89b, #33a365);
+	box-shadow: 2px 2px 15px #adb3b7, -2px -2px 15px #ffffff, inset 2px 2px 0px #60e89b, inset -2px -2px 0px #33a365;
+	grid-column: 3/5;
+}
+
+.equals:hover {
+	background: linear-gradient(145deg, #33a365, #60e89b);
+}
+
+.equals:active {
+	border: 1px solid #33a365;
+}
