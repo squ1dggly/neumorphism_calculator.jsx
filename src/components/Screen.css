@@ -1,6 +1,7 @@
 .screen-wrapper {
 	background: linear-gradient(284.34deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%), #e3ecf6;
 	color: rgba(68, 70, 66, 0.8);
+	font-family: monospace;
 	font-size: 4rem;
 	text-align: end;
 	display: flex;
