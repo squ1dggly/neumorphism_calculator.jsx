@@ -24,12 +24,6 @@ body {
 	justify-content: center;
 }
 
-.container {
-	display: flex;
-	flex-direction: row;
-	gap: 10rem;
-}
-
 .wrapper {
 	/* background: #e3ecf6; */
 	background: linear-gradient(145deg, #f6ffff, #cfd7dc);
@@ -37,7 +31,7 @@ body {
 	flex-direction: column;
 	width: 27rem;
 	border-radius: 3rem;
-	box-shadow: 15px 15px 30px #c1c9d1, -15px -15px 30px #ffffff, inset 4px 4px 0px #ffffff, inset -2px -2px 0px #adb3b7;
+	box-shadow: 15px 15px 30px #c1c9d1, -15px -15px 30px #ffffff, inset 3px 3px 0px #ffffff, inset -2px -2px 0px #adb3b7;
 }
 
 .content {
