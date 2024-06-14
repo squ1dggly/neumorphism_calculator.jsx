@@ -31,7 +31,7 @@ body {
 	flex-direction: column;
 	width: 27rem;
 	border-radius: 3rem;
-	box-shadow: 15px 15px 30px #c1c9d1, -15px -15px 30px #ffffff, inset 3px 3px 0px #ffffff, inset -2px -2px 0px #adb3b7;
+	box-shadow: 15px 15px 30px #c1c9d1, -15px -15px 30px #ffffff, inset 3px 3px 2px #ffffff, inset -2px -2px 2px #adb3b7;
 }
 
 .content {
