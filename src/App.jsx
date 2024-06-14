@@ -16,13 +16,10 @@ function App() {
 		<CalcProvider>
 			<div className="wrapper">
 				<div className="content">
+					{/* prettier-ignore */}
 					<div className="content-header">
 						<h1>calcX</h1>
-						<p>
-							neumorphismic
-							<br />
-							calculator
-						</p>
+						<p>neumorphismic<br />calculator</p>
 					</div>
 
 					<Screen />

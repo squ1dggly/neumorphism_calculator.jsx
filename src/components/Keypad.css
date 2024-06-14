@@ -29,7 +29,7 @@
 
 .opt {
 	background: linear-gradient(145deg, #ffc362, #de8605);
-	box-shadow: 2px 2px 15px #adb3b7, -2px -2px 15px #ffffff, inset 2px 2px 0px #ffc362, inset -2px -2px 0px #de8605;
+	box-shadow: 2px 2px 10px #adb3b7, -2px -2px 10px #ffffff, inset 2px 2px 0px #ffc362, inset -2px -2px 0px #de8605;
 }
 
 .opt:hover {
@@ -47,7 +47,7 @@
 
 .equals {
 	background: linear-gradient(145deg, #60e89b, #33a365);
-	box-shadow: 2px 2px 15px #adb3b7, -2px -2px 15px #ffffff, inset 2px 2px 0px #60e89b, inset -2px -2px 0px #33a365;
+	box-shadow: 2px 2px 10px #adb3b7, -2px -2px 10px #ffffff, inset 2px 2px 0px #60e89b, inset -2px -2px 0px #33a365;
 	grid-column: 3/5;
 }
 
